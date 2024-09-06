@@ -5,7 +5,6 @@ let dados = [
         link : "https://open.spotify.com/playlist/5ukdwayJCYQKfCpajC5RQd?si=cdfadd3c638b4f5a"
     },
 
-
     {
         titulo: "Tristeza",
         descrição: "lorem ipsulum ablablablabla",
@@ -18,15 +17,4 @@ let dados = [
         link : "https://open.spotify.com/playlist/5ukdwayJCYQKfCpajC5RQd?si=cdfadd3c638b4f5"
     },
 
-    {
-        titulo: "barganha",
-        descrição: "lorem ipsulum ablablablabla",
-        link : "https://open.spotify.com/playlist/5ukdwayJCYQKfCpajC5RQd?si=cdfadd3c638b4f5"
-    },
-
-    {
-        titulo: "euforia",
-        descrição: "lorem ipsulum ablablablabla",
-        link : "https://open.spotify.com/playlist/5ukdwayJCYQKfCpajC5RQd?si=cdfadd3c638b4f5"
-    },
 ]

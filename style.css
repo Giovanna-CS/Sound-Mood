@@ -98,16 +98,22 @@ img {
     width: 30px;
 }
 
+.resultado-pequisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
 
 .item-resultado {
-    background-color: white;
-    margin: 10px;
-    /*padding: 8em 23em 10em 14em;*/
-    margin: 10px;
-    border-radius: 9px;
-    width: 49em;
-    height: 23em;
-    /*transition: 0.11s;*/
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 
 }
 
