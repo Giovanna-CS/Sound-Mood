@@ -1,4 +1,7 @@
 # Soundmod 🎵
+
+[Link para o projeto](https://sound-mood.vercel.app/)
+
 Soundmod é um projeto de site simples que permite aos usuários encontrar playlists de músicas com base no sentimento que estão experimentando. Basta digitar um sentimento no campo de pesquisa, e o site recomendará uma playlist que corresponda ao seu mood.
 
 # Funcionalidades
