@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="midias/icon.png" type="image/x-icon">
     <title>Soundmod</title>
 </head>
 <body>
+
         <video autoplay loop muted id="myVideo">
-            <source src="video-background.mp4" type="video/mp4">
-         
+            <source src="midias/background.mp4" type="video/mp4">  
         </video>
 
-        <header>
-            <h1>Soundmood</h1>
-            <p class="descrição">Conheça musicas baseadas no seu mood diario</p>
-        </header>
-        <main>
-            <section>
-                <input type="text" placeholder="digite um sentimento">
-                <button>Descobrir</button>
-            </section>
-            <section class="resultado-pesquisa" id="resultado-pesquisa">
-                <div class="item-resultado">
-            </section>
-        </main>
+            <header>
+                <h1>Soundmood </h1>
+                <p class="descrição"> ✨Conheça musicas baseadas no seu mood diario✨</p>
+            </header>
+            <main>
+                <section>
+                    <input type="text" placeholder="digite um sentimento" id="campo-pesquisa">
+                    <button onclick="pesquisar()">Descobrir</button>
+                </section>
+                    <section class="resultado-pesquisa" id="resultado-pesquisa">
+                        <!--<div class="item-resultado">-->
+                    </section>
+            </main>
         <footer>
             <p>2024 -Soundmod. Todos os direitos reservados</p>
         </footer>
